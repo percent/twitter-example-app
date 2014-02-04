@@ -8,7 +8,6 @@ define(['timeline'], function(timeline) {
     console.log('submitting', text);
 
     var promise = jQuery.post('/statuses', {
-      name: 'Me',
       text: text
     });
 

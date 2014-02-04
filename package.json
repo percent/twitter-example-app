@@ -11,6 +11,6 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "express": "~3.4.7",
-    "cors": "~2.1.1"
+    "percent-auth-middleware": "*"
   }
 }

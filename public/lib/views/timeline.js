@@ -25,6 +25,7 @@ define(['text!templates/post.html'], function(template) {
 
   function renderList() {
     var this$el = this.$el;
+    this$el.empty();
     this.model.each(function(model) {
       var view = new Single({ model: model });
       view.render();
